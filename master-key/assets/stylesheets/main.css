@@ -1,0 +1,22 @@
+header,
+footer, 
+section {
+   overflow: auto;
+}
+header h1,
+header h2,
+section p,
+footer p {
+   margin: 0;
+}
+header,
+footer, 
+section {
+   padding: 1px;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
