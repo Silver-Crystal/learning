@@ -2,96 +2,121 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" href="assets/stylesheets/normalize.css">
         <link rel="stylesheet" href="assets/stylesheets/main.css">
         <title>HTML 5 Keys</title>
     </head>
     <body>
-        
-            <section>
-                &lt;!DOCTYPE html&gt; &ndash;
-                &lt;html&gt; &ndash;
-                &quot;lang&quot;&ndash;&quot;&quot;always used within the &lt;html&gt; tag like &lt;html lang=&quot;preferred language&quot;&#91;&quot;en&quot;&ndash;for english&#93;<!--we can add something like, for full list of (shortforms) go to.....(site link)-->
-                &lt;html lang=&quot;en&quot;&gt; &ndash; used to set the language (en referring to english)
-            </section>
-            <section>
-                &lt;meta charset&equals;&quot;UTF-8&quot;&gt;
-                &lt;title&gt; &ndash; the title of the webpage which is displayed in the tab.
-            </section>
-            <section>
-                &lt;link&gt; &ndash;
-                &lt;rel&equals;&quot;&quot; &ndash; to specify the link's relation with the site, for example, &lt;link rel&equals;&quot;stylesheet&quot;&gt;<!--again, for full list of relations go to ..... site-->
-                &lt;href&gt; &ndash; hypertext reference, indicates the destination of the hyperlink.
-            </section>
-            <section>
-                &lt;body&gt; &ndash;
-                &lt;a&gt; &ndash; always used with href to tell the path, like &lt;a href&equals;&quot;path&quot;&gt;
-                &lt;a href&equals;&quot;mailto&colon;&lowbar;&lowbar;&lowbar;&lowbar;@&lowbar;&lowbar;mail.com&quest;subject&equals;&lowbar;&percnt;20&lowbar;&percnt;20&quest;&body&equals;&lowbar;&percnt;20&lowbar;&quot;&gt; &ndash;used to create a mail link.
-                &lt;a href&equals;&quot;&lowbar;&quot;&nbsp;target&equals;&quot;&lowbar;blank&quot;&gt;&ndash;for a link that opens itself in a new window.
-            </section>
-            <section>
-                &lt;div&gt; &ndash;
-            </section>
-            <section>
-                &quot; src&equals;&quot;&lowbar;&quot;&quot; &ndash; apecifies the url of the media file to play or show.
-            </section>
-            <section>
-                &lt;class&gt; &ndash; never used alone, used with other tags, like div, article and so on (mainly for styling in css)
-                &lt;id&gt; &ndash; never used alone, used with other tags, like div, article and so on, can be used only ONCE (mainly for styling in css)
-            </section>
-            <section>
-                &lt;&excl;&hyphen;&hyphen;&nbsp;&nbsp;&hyphen;&hyphen;&gt; &ndash; comment in html, useful when collaborating with other people on a project.
-                &sol;&ast;&nbsp;&nbsp;&ast;&sol; &ndash; comment within css
-            </section>
-            <section>
+        <pre>
 
-               &lt;h1&gt; &ndash;
-            </section>             
-            <section>
-                &lt;p&gt; &ndash;
-            </section>
-            <section>
-                &lt;strong&gt; &ndash; semantically used to give strong importance to text
-                &lt;b&gt; &ndash; used to stylisticaly offset text
-                &lt;em&gt; &ndash; used to place stressed emphasis on text
-                &lt;i&gt; &ndash; used sementically to convey text in an alternative voice or tone
-            </section>
-            <section>
-                &lt;header&gt; &ndash; &lpar;block&ndash;level element&rpar;used to identify the top of the page, article, section or other segment of a page may include a heading
-                &lt;nav&gt; &ndash; identifies a aection of major navigational links. should be reserved only for primary navigation sections only.
-            </section>
-            <section>
-                &lt;img&gt; &ndash; used to add images
-                &lt;a href&equals;&quot;&lowbar;&quot; aria&ndash;label&equals;&quot;&lowbar;&quot;&gt; &ndash; use the &lt;aria-label&gt; tag so that the link doesen't look empty to the screen readers or narrators, and people using them know what the links leads to
-                &lt;figure&gt; &ndash; can include a image and add multimedia, illustrations, diagrams and code listings, etc, can add a caption too using the &quot;&lt;figcaption&gt;&quot;tag,
-                &lt;figcaption&gt; &ndash; represents a caption describing the rest of the contents of its parent &lt;figure&gt; element.
-            </section>
-            <section>
-                &lt;video src&equals;&quot;&lowbar;&quot;&gt; &ndash; to add a video, you can also turn on autoplay(dictates if the video should start playing as soon as you load the page) or loop(will allow the video to play over and over) by adding these in the tag always remember to add controls in so the user can control it. src is the normal source as in images, you can also use the embedded source tag where you might have the video tag and then multiple sources down below. height and width attributes are also available. remember to add some text in there so if any browser does not support the link or cannot play the video for some reason, letting the user know there should be a video there that they should be looking at
-                &lt;audio src&equals;&quot;&lowbar;&quot;&gt; &ndash; uses src attribute to link to a audio file. attributes being autoplay, controls, loop as in &lt;video&gt; attribute and some others like buffered, muted and volume.
-                you can set both the video and audio elements to play clips by adding &quot; .ext&num;t&equals;&lowbar;, &lowbar; &quot;  to the src attribute for eg. &lt;audio src&equals;&quot;&lowbar;.ext&num;&equals;3, 18&quot; autoplay&gt; the video will then play from 3 sec to 18 sec only.(.ext being the extension)
-            </section>
-            <section>
-                &lt;table&gt; &ndash; the container tag for table (draw your table before you code it, always check for unclosed tags and NEVER use it for formatting , ahould only be used for tabular data.)
-                &lt;tr&gt; &ndash; the rows 
-                &lt;td&gt; &ndash; the columns
-                you can use the row span or column span to merge columns, and this can be useful.
-                &lt;th&gt; &ndash; used to add table headings
-                &lt;caption&gt; &ndash; can be used inside the table , helps in making people know that that specific caption goes with the table
-            </section>
-            <section>    
-                &lt;article&gt; &ndash; used to identify a section of independent, self-contained content which can be independently distributed.used to mark blogs, news articles, user submitted content and so on.
-                &lt;section&gt; &ndash; used to identify a thematic grouping of content, generally includes a heading, used to break up and provide hierachy to the page
-                &lt;aside&gt; &ndash; Holds content such as brief explanations which are indirectly related to the content around it , for example, it may identify content related to the author of the article 
-                &lt;footer&gt; &ndash; identifies the ending of a page, article, section or other segment of a page. should be relative information and should not diverge from the document it is included in.
-            </section>
-            <section>
-                &lt;pre&gt;
-            </section>
-            <section>
-                
-            </section>
-            
+        <section>
+            &lt;!DOCTYPE html&gt; &ndash;
+            &lt;html&gt; &ndash;
+            &quot;lang&quot;&ndash;&quot;&quot;always used within the &lt;html&gt; tag like &lt;html lang=&quot;preferred language&quot;&#91;&quot;en&quot;&ndash;for english&#93;<!--we can add something like, for full list of (shortforms) go to.....(site link)-->
+            &lt;html lang=&quot;en&quot;&gt; &ndash; used to set the language (en referring to english)
+        </section>
+        <section>
+            &lt;meta charset&equals;&quot;UTF-8&quot;&gt;
+            &lt;title&gt; &ndash; the title of the webpage which is displayed in the tab.
+        </section>
+        <section>
+            &lt;link&gt; &ndash;
+            &lt;rel&equals;&quot;&quot; &ndash; to specify the link's relation with the site, for example, &lt;link rel&equals;&quot;stylesheet&quot;&gt;&lpar;in the head tag&rpar;<!--again, for full list of relations go to ..... site-->
+            &lt;href&gt; &ndash; hypertext reference, indicates the destination of the hyperlink.
+        </section>
+        <section>
+            &lt;body&gt; &ndash;
+            &lt;a&gt; &ndash; always used with href to tell the path, like &lt;a href&equals;&quot;path&quot;&gt;
+            &lt;a href&equals;&quot;mailto&colon;&lowbar;&lowbar;&lowbar;&lowbar;@&lowbar;&lowbar;mail.com&quest;subject&equals;&lowbar;&percnt;20&lowbar;&percnt;20&quest;&body&equals;&lowbar;&percnt;20&lowbar;&quot;&gt; &ndash;used to create a mail link.
+            &lt;a href&equals;&quot;&lowbar;&quot;&nbsp;target&equals;&quot;&lowbar;blank&quot;&gt;&ndash;for a link that opens itself in a new window.
+        </section>
+        <section>
+            &lt;div&gt; &ndash;
+            &lt;adress&gt; &ndash; does not format your address in any way, just helps screen readers and other assistive devices to find the adress faster
+            &lt;hr&gt; &ndash; to add a horizontal rule , is a block level element.
+            &lt;
+        </section>
+        <section>
+            src&equals;&quot;&lowbar;&quot;&quot; &ndash; specifies the url of the media file to play or show.
+        </section>
+        <section>
+            &lt;class&gt; &ndash; never used alone, used with other tags, like div, article and so on (mainly for styling in css)
+            &lt;id&gt; &ndash; never used alone, used with other tags, like div, article and so on, can be used only ONCE (mainly for styling in css)
+        </section>
+        <section>
+            &lt;&excl;&hyphen;&hyphen;&nbsp;&nbsp;&hyphen;&hyphen;&gt; &ndash; comment in html, useful when collaborating with other people on a project.
+            &sol;&ast;&nbsp;&nbsp;&ast;&sol; &ndash; comment within css
+        </section>
+        <section>
+            &lt;h1&gt; &ndash;
+        </section>             
+        <section>
+            &lt;p&gt; &ndash;
+        </section>
+        <section>
+            &lt;strong&gt; &ndash; semantically used to give strong importance to text
+            &lt;b&gt; &ndash; used to stylisticaly offset text
+            &lt;em&gt; &ndash; used to place stressed emphasis on text
+            &lt;i&gt; &ndash; used sementically to convey text in an alternative voice or tone
+        </section>
+        <section>
+            &lt;header&gt; &ndash; &lpar;block&ndash;level element&rpar;used to identify the top of the page, article, section or other segment of a page may include a heading
+            &lt;nav&gt; &ndash; identifies a aection of major navigational links. should be reserved only for primary navigation sections only.
+        </section>
+        <section>
+            &lt;img&gt; &ndash; used to add images
+            &lt;a href&equals;&quot;&lowbar;&quot; aria&ndash;label&equals;&quot;&lowbar;&quot;&gt; &ndash; use the &lt;aria-label&gt; tag so that the link doesen't look empty to the screen readers or narrators, and people using them know what the links leads to
+            &lt;figure&gt; &ndash; can include a image and add multimedia, illustrations, diagrams and code listings, etc, can add a caption too using the &quot;&lt;figcaption&gt;&quot;tag,
+            &lt;figcaption&gt; &ndash; represents a caption describing the rest of the contents of its parent &lt;figure&gt; element.
+        </section>
+        <section>
+            &lt;video src&equals;&quot;&lowbar;&quot;&gt; &ndash; to add a video, you can also turn on autoplay(dictates if the video should start playing as soon as you load the page) or loop(will allow the video to play over and over) by adding these in the tag always remember to add controls in so the user can control it. src is the normal source as in images, you can also use the embedded source tag where you might have the video tag and then multiple sources down below. height and width attributes are also available. remember to add some text in there so if any browser does not support the link or cannot play the video for some reason, letting the user know there should be a video there that they should be looking at
+            &lt;audio src&equals;&quot;&lowbar;&quot;&gt; &ndash; uses src attribute to link to a audio file. attributes being autoplay, controls, loop as in &lt;video&gt; attribute and some others like buffered, muted and volume.
+            you can set both the video and audio elements to play clips by adding &quot; .ext&num;t&equals;&lowbar;, &lowbar; &quot;  to the src attribute for eg. &lt;audio src&equals;&quot;&lowbar;.ext&num;&equals;3, 18&quot; autoplay&gt; the video will then play from 3 sec to 18 sec only.(.ext being the extension)
+        </section>
+        <section>
+            &lt;table&gt; &ndash; the container tag for table (draw your table before you code it, always check for unclosed tags and NEVER use it for formatting , ahould only be used for tabular data.)
+            &lt;tr&gt; &ndash; the rows 
+            &lt;td&gt; &ndash; the columns
+            you can use&lpar;inside the td element &rpar; the row span&lt;td rowspan&equals;&quot;2&quot;&gt; or column span&lt;td colspan&equals;&quot;2&quot;&gt; to merge columns, and this can be useful.
+            &lt;th&gt; &ndash; used to add table headings
+            &lt;caption&gt; &ndash; can be used inside the table , helps in making people know that that specific caption goes with the table
+        </section>
+        <section>    
+            &lt;article&gt; &ndash; used to identify a section of independent, self-contained content which can be independently distributed.used to mark blogs, news articles, user submitted content and so on.
+            &lt;section&gt; &ndash; used to identify a thematic grouping of content, generally includes a heading, used to break up and provide hierachy to the page
+            &lt;aside&gt; &ndash; Holds content such as brief explanations which are indirectly related to the content around it , for example, it may identify content related to the author of the article 
+            &lt;footer&gt; &ndash; identifies the ending of a page, article, section or other segment of a page. should be relative information and should not diverge from the document it is included in.
+            &lt;blockquote&gt; &ndash; use when you are about to add a quote &lpar;use q tag for shorter quotations&rpar;
+               use the cite attribute in conjugation to tell whose quote it is, increases the chances of the search engine linking back to your page if someone searches for the cited text
+        </section>
+        <section>
+            &lt;pre&gt; &ndash; pre-formatted text 
+        </section>
+        <section>
+            &lt;details&gt; &ndash; used to make a dropdown menu, always used in conjugation with summary tag
+            &lt;summary&gt; &ndash; adds a visible heading for the details tag
+        </section>
+        <section>
+            <details>
+            <summary>new inline tags besids &lt;span&gt;</summary>
+            &lt;cite&gt;
+            &lt;abrr&gt;
+            &lt;time&gt;
+            &lt;code&gt;
+            &lt;sub&gt; or &lt;sup&gt;
+            </details>
+        </section>
+        <section>
+            <summary>tags that need more</summary>
+            &lt;button&gt;
+            &lt;meter&gt;
+            &lt;progress&gt;
+            &lt;iframe&gt; &ndash; often used to embed documents
+            &lt;bdo&gt; &ndash; attribute dir (ltr or rtl) &lpar;bdo stands for bidirectonal orientation&rpar; 
+            &lt;map&gt; with &lt;area&gt; &ndash;&ndash; creates &quot;clickable element in image&quot; but.... needs javascript 
+        </section>
+        </pre>    
     </body>
 </html>
